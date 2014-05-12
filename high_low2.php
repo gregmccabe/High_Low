@@ -12,14 +12,15 @@ do {
  	
  	} elseif ($Guess > $number) {
  		echo "lower\n";
+
  	} else {
- 	echo "Correct! It took you $number_of_guesses guesses!!\n";
+ 		echo "Correct! It took you $number_of_guesses guesses!!\n";
  	}
  	$number_of_guesses += 1;	
 	
 	} while($Guess != $number);
 
-	?> 
+?>
 
 
 
